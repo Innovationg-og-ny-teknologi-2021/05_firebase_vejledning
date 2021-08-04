@@ -20,11 +20,11 @@
 - Giv projektet et vilkårligt navn og tryk "continue"
 - Fjern Analytics og tryk "create project"
 - Registrer nu en  web Aapplikation. Tryk på ikonet </> - Se billeder herunder;
-![img_1.png](img_1.png)
+![img_1](https://user-images.githubusercontent.com/55731954/128145049-ee6b0029-1372-45d6-b6ec-0fefaf49e18b.png)
   
 - Giv applikationen et vilkårligt navn og tryk "Register app".
-- Du vil nu få præsenteret en kodeblok. Kopier den del, som omkranset af en rød boks på billedet herunder; 
-![img_2.png](img_2.png)
+- Du vil nu få præsenteret en kodeblok. Kopier den del, som er omkranset af en rød boks på billedet herunder;<br/>Erstat `var` med `const`
+![img_2](https://user-images.githubusercontent.com/55731954/128145076-eb2c1a95-643d-434b-8dc8-f43ed9e65e4d.png)
   
 - Tryk på "Authentication"
 - Gå ind på Sign-in method
@@ -86,9 +86,10 @@ HINT: Brug løbende den officielle docs:<br/> https://docs.expo.io/guides/using-
 
 ## Bilag
 
-<h4>Bilag A - Package.json - Fra Endelig Løsning </h3>
+### Bilag A - Package.json - Fra Endelig Løsning <br/>
+![img_3](https://user-images.githubusercontent.com/55731954/128145201-aa0d6023-5ac9-4ff4-a6ac-43699fdad65e.png)
 
-![img_3.png](img_3.png)
+
 
 
 
