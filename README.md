@@ -1,5 +1,11 @@
 # Øvelsesvejldning øvelse 4 - Firebase
 
+## Slutprodukt
+
+https://user-images.githubusercontent.com/48329669/128593607-d93036b5-331f-4c92-a17d-27c7b92244b9.mp4
+
+
+
 ## Integration med Firebase
 
 1.   Start med at oprette et nyt projekt. 
