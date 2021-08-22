@@ -35,6 +35,7 @@ https://user-images.githubusercontent.com/48329669/128593607-d93036b5-331f-4c92-
 - Tryk på "Authentication"
 - Gå ind på Sign-in method
 - Aktiver sign-in ved brug af Email/Password
+<br/>
   
 4. Vend tilbage til dit IDE(Webtstorm, VC, Phpstorm, el.lign.)
 - Indsæt den kode, som er kopieret fra firebase. 
