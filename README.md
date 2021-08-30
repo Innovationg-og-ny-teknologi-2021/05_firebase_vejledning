@@ -7,6 +7,7 @@ https://user-images.githubusercontent.com/48329669/128593607-d93036b5-331f-4c92-
 
 
 ## Integration med Firebase
+[comment]: <> (This is a comment, it will not be included)
 
 1.   Start med at oprette et nyt projekt. 
 2.   Installér følgende dependencies;
