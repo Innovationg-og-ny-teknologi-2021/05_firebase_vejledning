@@ -18,7 +18,7 @@ https://user-images.githubusercontent.com/48329669/128593607-d93036b5-331f-4c92-
         - KOPIER linjen herunder til installering.
 
 
-        `npm install --save firebase react-native-paper`
+        `expo install firebase react-native-paper`
 
 3. Opret nu en authentication-database i Firebase;
 - Følg dette link: https://firebase.google.com/
