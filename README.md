@@ -38,6 +38,8 @@ https://user-images.githubusercontent.com/48329669/128593607-d93036b5-331f-4c92-
 - Aktiver sign-in ved brug af Email/Password
 <br/>
   
+  ## App.js 
+
 4. Vend tilbage til dit IDE(Webtstorm, VC, Phpstorm, el.lign.)
 - Indsæt den kode, som er kopieret fra firebase. 
 - Opret en components mappe med en js-fil i. Kald filen `SignInForm`
