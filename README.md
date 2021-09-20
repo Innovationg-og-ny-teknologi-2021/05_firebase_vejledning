@@ -42,9 +42,9 @@ https://user-images.githubusercontent.com/48329669/128593607-d93036b5-331f-4c92-
 
 4. Vend tilbage til dit IDE(Webtstorm, VC, Phpstorm, el.lign.)
 - Indsæt den kode, som er kopieret fra firebase. 
-- Opret en components mappe med en js-fil i. Kald filen `SignInForm`
+- Opret en components mappe med en js-fil i. Kald filen `SignUpForm`
 
-## SignInForm 
+## SignUpForm 
 
 HINT: Brug løbende den officielle docs:<br/> https://docs.expo.io/guides/using-firebase/
 
@@ -83,7 +83,7 @@ HINT: Brug løbende den officielle docs:<br/> https://docs.expo.io/guides/using-
 1. Vend tilbage til App.js og opret en metode, som monitorerer om en brugers tilstand ændres fra inaktiv til aktiv
 - HINT: Find hjælp på dette link: https://johnwcassidy.medium.com/firebase-authentication-hooks-and-context-d0e47395f402
 - Dokumentionen på useEffect: https://reactjs.org/docs/hooks-effect.html
-2. Afslutningsvis, skal `return()` i app.js, på baggrund af brugerens tilstand, fremvise enten LoginForm & SignInForm eller ProfileScreen<br/>Dette kan gøres på flere måde, herunder, if/else eller Tenary
+2. Afslutningsvis, skal `return()` i app.js, på baggrund af brugerens tilstand, fremvise enten LoginForm & SignUpForm eller ProfileScreen<br/>Dette kan gøres på flere måde, herunder, if/else eller Tenary
 3. Når du starter appen skal du indledningsvist få fremvist en side, der indeholder både felter til login- og oprettelse af en bruger. Ved at oprette en bruger eller login, skal appen automatisk føre dig ind til `Profilescreen`, hvor mailadressen på den aktive bruger fremvises. Ved tryk på log-ud-knappen, skal appen føre dig tilbage til udgangspunktet(sign-up & login).
 
 
