@@ -34,14 +34,14 @@ https://user-images.githubusercontent.com/48329669/128593607-d93036b5-331f-4c92-
 ![img_2](https://user-images.githubusercontent.com/55731954/128145076-eb2c1a95-643d-434b-8dc8-f43ed9e65e4d.png)
   
 - Tryk på "Authentication"
-- Gå ind på Sign-in method
+- Tryk på "Get Started"
 - Aktiver sign-in ved brug af Email/Password
 <br/>
   
   ## App.js 
 
 4. Vend tilbage til dit IDE(Webtstorm, VC, Phpstorm, el.lign.)
-- Indsæt den kode, som er kopieret fra firebase. 
+- Indsæt den kode, som er kopieret fra firebase i App.js
 - Opret en components mappe med en js-fil i. Kald filen `SignUpForm`
 
 ## SignUpForm 
