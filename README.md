@@ -87,7 +87,7 @@ HINT: Brug løbende den officielle docs:<br/> https://docs.expo.io/guides/using-
 3. Når du starter appen skal du indledningsvist få fremvist en side, der indeholder både felter til login- og oprettelse af en bruger. Ved at oprette en bruger eller login, skal appen automatisk føre dig ind til `Profilescreen`, hvor mailadressen på den aktive bruger fremvises. Ved tryk på log-ud-knappen, skal appen føre dig tilbage til udgangspunktet(sign-up & login).
 
 
-## Videre arbejder
+## Videre arbejde
 - Forsøg at adskille login- og sign-up siden
    - Her kan Tabnavigator, Stcknavigator eller Drawernavigator benyttes.
 - Opret fejlhåndtering ved eksempelvis dét tilfælde at brugeren indskriver en email uden brug af "@".
