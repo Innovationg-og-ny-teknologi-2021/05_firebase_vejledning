@@ -66,7 +66,7 @@ HINT: Brug løbende den officielle docs:<br/> https://docs.expo.io/guides/using-
    2. password 
    3. isCompleted 
    <br/>Eksempel på syntaksen for én af variablerne: `const [email, setEmail] = useState('')`
-3. i `return()` oprettes en overskrift og to inputfelter, som skal tage imod email og password samt en `<Button/>`der står for aktivering af en brugeroprettelse.
+3. i `return()` oprettes en overskrift og to inputfelter, som skal tage imod email og password der står for aktivering af en brugeroprettelse.
     - Huske at i kan skal indramme jeres inputfelter felterne i et `<TextInput />`
     - ```
       <TextInput
