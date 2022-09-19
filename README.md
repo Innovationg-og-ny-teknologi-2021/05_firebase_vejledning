@@ -30,8 +30,9 @@ https://user-images.githubusercontent.com/48329669/128593607-d93036b5-331f-4c92-
 ![img_1](https://user-images.githubusercontent.com/55731954/128145049-ee6b0029-1372-45d6-b6ec-0fefaf49e18b.png)
   
 - Giv applikationen et vilkårligt navn og tryk "Register app".
-- Du vil nu få præsenteret en kodeblok. Kopiér den del, som er omkranset af en rød boks på billedet herunder;<br/>Erstat `var` med `const`
-![img_2](https://user-images.githubusercontent.com/55731954/128145076-eb2c1a95-643d-434b-8dc8-f43ed9e65e4d.png)
+- Du vil nu få præsenteret en kodeblok. Kopiér den del, som er omkranset af en rød boks på billedet herunder;
+!<img width="586" alt="Skærmbillede 2022-09-19 kl  17 08 22" src="https://user-images.githubusercontent.com/111279752/191050825-a7a61a96-9e08-4cba-9aae-22e1b2cba631.png">
+
   
 - Tryk på "Authentication"
 - Tryk på "Get Started"
