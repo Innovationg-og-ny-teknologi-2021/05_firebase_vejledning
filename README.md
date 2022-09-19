@@ -95,9 +95,6 @@ HINT: Brug løbende den officielle docs:<br/> https://docs.expo.io/guides/using-
 ## Bilag
 
 ### Bilag A - Package.json - Fra Endelig Løsning <br/>
-![img_3](https://user-images.githubusercontent.com/55731954/128145201-aa0d6023-5ac9-4ff4-a6ac-43699fdad65e.png)
-
-
 <img width="344" alt="Skærmbillede 2022-09-19 kl  17 03 10" src="https://user-images.githubusercontent.com/111279752/191049330-5fa21a5f-6f5f-4fc6-a887-7699851eeab8.png">
 
 
