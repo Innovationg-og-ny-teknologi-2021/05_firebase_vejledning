@@ -40,7 +40,7 @@ https://user-images.githubusercontent.com/48329669/128593607-d93036b5-331f-4c92-
 <br/>
   
 ## metro.config.js
-Da firebase blev opdateret her slut August 2022, er der stadig en masse bugs som skaber problemer. Et af dem er følgende
+Da firebase blev opdateret her i slut August 2022, er der stadig en masse bugs som skaber problemer. Et af dem er følgende
 `ERROR MESSAGE: "While trying to resolve module 'idb'..... Indeed none of these files exist":`
 
 Denne fejl vil i modtage når i forsøger at compile jeres applikation på jeres mobil. 
@@ -55,19 +55,19 @@ Læs om løsning hertil her: https://stackoverflow.com/questions/72179070/react-
 
 ## SignUpForm 
 
-HINT: Brug løbende den officielle docs:<br/> https://docs.expo.io/guides/using-firebase/ <br/>
-### OBS. Vi bruger web-version 8 da den er det mest kendte og understøttet format. I er velkommen til at prøve at bruge det nye version 9 men vi har ikke selv fået sat os ind i det.
+HINT: Brug løbende den officielle dokumentation:<br/> https://docs.expo.io/guides/using-firebase/ <br/>
+### OBS. Vi bruger web-version 8 da den er det mest kendte og understøttet format. I er velkommen til at prøve at bruge version 9, men vi har ikke selv fået sat os ind i det.
 
 1. importer `firebase` og `useState`
-   - !! OBS !!  - Hvis i benytter jer af Version 8 af firebase (som vi anbefaler lige pt.) - skal i importer firebase's compatibility fil. Dette gør i ved at skrive følgende `import firebase from "firebase/compat";` Gør dette i stedet for bare at importer kun  firebase.
-   - Dokumentatoinen på useState kan findes på følgende link:<br/> https://reactjs.org/docs/hooks-state.html
+   - !! OBS !!  - Hvis i benytter jer af Version 8 af firebase (som vi anbefaler lige pt.) - skal i importere firebase's compatibility fil. Dette gør i ved at skrive følgende `import firebase from "firebase/compat";` Gør dette i stedet for bare at importere firebase.
+   - Dokumentationen på useState kan findes på følgende link:<br/> https://reactjs.org/docs/hooks-state.html
 2. Opret const til; 
    1. email, 
    2. password 
    3. isCompleted 
    <br/>Eksempel på syntaksen for én af variablerne: `const [email, setEmail] = useState('')`
 3. i `return()` oprettes en overskrift og to inputfelter, som skal tage imod email og password der står for aktivering af en brugeroprettelse.
-    - Huske at i kan skal indramme jeres inputfelter felterne i et `<TextInput />`
+    - Huske at i skal indramme jeres inputfelter felterne i et `<TextInput />`
     - ```
       <TextInput
                 placeholder="email"
