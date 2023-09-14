@@ -39,15 +39,11 @@ https://user-images.githubusercontent.com/48329669/128593607-d93036b5-331f-4c92-
 - Aktiver sign-in ved brug af Email/Password
 <br/>
   
-<<<<<<< HEAD
-## metro.config.js - KUN Hvis i vil bruge en ældre version af firebase
-Da firebase blev opdateret her slut August 2022, er der stadig en masse bugs som skaber problemer. Et af dem er følgende
+
+metro.config.js - KUN Hvis i vil bruge en ældre version af firebase
 =======
 ## metro.config.js
 Da firebase blev opdateret her i slut August 2022, er der stadig en masse bugs som skaber problemer. Et af dem er følgende
->>>>>>> 957c19d36412894bd3d13acdb3ec7afe95799eeb
-`ERROR MESSAGE: "While trying to resolve module 'idb'..... Indeed none of these files exist":`
-
 Denne fejl vil i modtage når i forsøger at compile jeres applikation på jeres mobil.
 
 Læs om løsning hertil her: https://stackoverflow.com/questions/72179070/react-native-bundling-failure-error-message-while-trying-to-resolve-module-i
@@ -56,6 +52,7 @@ Læs om løsning hertil her: https://stackoverflow.com/questions/72179070/react-
 
 4. Vend tilbage til dit IDE(Webtstorm, VC, Phpstorm, el.lign.)
 - Indsæt den kode, som er kopieret fra firebase i App.js under jeres imports
+- Husk også at import ``import { getApps, initializeApp } from "firebase/app";``
 - Opret en components mappe med en js-fil i. Kald filen `SignUpForm`
 
 ## SignUpForm 
@@ -95,7 +92,6 @@ HINT: Brug løbende den officielle dokumentation:<br/> https://docs.expo.io/guid
    <br/>Eksempel på syntaksen for én af variablerne: `const [email, setEmail] = useState('')`
 3. i `return()` oprettes en overskrift og to inputfelter, som skal tage imod email og password der står for aktivering af en brugeroprettelse.
     - Huske at i skal indramme jeres inputfelter felterne i et `<TextInput />`
->>>>>>> 957c19d36412894bd3d13acdb3ec7afe95799eeb
     - ```
       <TextInput
                 placeholder="email"
@@ -141,6 +137,8 @@ HINT: Brug løbende den officielle dokumentation:<br/> https://docs.expo.io/guid
 6. Importér `SignUpForm` i jeres App.js og placér komponenten i `return()`
 7. Sørg for at din kode afprøver om en firebase app allerede er initialiseret, før selve initialiseringen opstår
    - HINT: https://dev.to/lxnd77/comment/13fbb
+   - Hint: Billag B
+   - Husk at importer getApps fra firebase/app
 8. Start nu appen og opret en testbruger. F.eks.<br/>E-mail: test@mail.dk<br/> password: 1234
 - Gå ind Firebase -> Authentication -> Users og se se at din bruger nu er oprettet i dit projekt. 
 
@@ -151,7 +149,7 @@ HINT: Brug løbende den officielle dokumentation:<br/> https://docs.expo.io/guid
 - HUSK: du skal justere komponentens titel og ændre de firebase componenter i importerer. 
 3. Justér teksten på `<Button/>` fra at være "create user" til "login"
 4. Dernæst skal knappen aktivere en loginmetode fremfor en sign-in metode.
-- HINT: Firebase stiller en prædefineret metode til rådighed ligesom med signIn metoden:<br/> https://firebase.google.com/docs/reference/js/firebase.auth.Auth#signinwithemailandpassword
+- HINT: Firebase stiller en prædefineret metode til rådighed ligesom med signIn metoden:<br/> https://firebase.google.com/docs/auth/web/password-auth
 
 ## ProfileScreen
 
@@ -196,4 +194,14 @@ HINT: Brug løbende den officielle dokumentation:<br/> https://docs.expo.io/guid
 ### Bilag A - Package.json - Fra Endelig Løsning - Jeres versions er ikke det samme <br/>
 <img width="344" alt="Skærmbillede 2022-09-19 kl  17 03 10" src="https://user-images.githubusercontent.com/111279752/191049330-5fa21a5f-6f5f-4fc6-a887-7699851eeab8.png">
 
+### Bilag B - 
+```
+  if (getApps().length < 1) {
+    initializeApp(firebaseConfig);
+    console.log("Firebase On!");
+    // Initialize other firebase products here
+  } else {
+    console.log("Firebase not on!");
+  }
 
+```
