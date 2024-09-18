@@ -179,7 +179,7 @@ export default function App() {
 
 - Hver nøgle skal vises i et tekstfelt, og det tilhørende inputfelt skal være bundet til objektets værdi.
 - Tænk over, hvordan du kan bruge `newCar[key]` til at binde værdien til `TextInput` og hvordan du vil opdatere værdien med `onChangeText`.
-- <b>Se eventuelt nede i hints  `powermove JS funktion 2`</b>
+- <b>Se eventuelt nede i hints  `powermove JS funktion 2` eller check i nedestående hint i HandleSave</b>
 
 ## HandleSave
 
