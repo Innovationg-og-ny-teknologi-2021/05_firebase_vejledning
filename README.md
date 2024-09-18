@@ -72,6 +72,35 @@ https://user-images.githubusercontent.com/48329669/128408720-8449ae85-8722-4f91-
 7. Tilføj nu også et ikon til "Add" Screenen, hvor ikon navnet er ``add`` istedet for home
 8. Nu burde du kunne trykke imellem add og stacknavigatoren "Carlist"
 
+Hint:
+```javascript
+export default function App() {
+
+ const Stack = createStackNavigator();
+  const Tab = createBottomTabNavigator();
+  const StackNavigation = () => {
+    return(
+        <Stack.Navigator>
+          <Stack.Screen "din kode her" />
+          <Stack.Screen "din kode her" />
+          <Stack.Screen "din kode her" />
+        </Stack.Navigator>
+    )
+  }
+
+  const BottomNavigation = () => { 
+    return(
+      <NavigationContainer>
+        <Tab.Navigator>
+          <Tab.Screen "din kode her" />
+          <Tab.Screen "din kode her" />
+        </Tab.Navigator>
+      </NavigationContainer>
+    )
+  }
+}
+```
+
 <Br> </Br>
 
 # Add_edit_car.js komponent (╯°□°)╯︵ ʞooqǝɔɐɟ
