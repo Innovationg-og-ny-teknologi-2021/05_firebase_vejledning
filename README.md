@@ -70,15 +70,16 @@ https://user-images.githubusercontent.com/48329669/128408720-8449ae85-8722-4f91-
 6. Tilføj et ikon til Home Tab.Screen | Eksempel ( husk at Ionicons skal importeres)
 ``<Tab.Screen name={'Home'} component={StackNavigation} options={{tabBarIcon: () => ( <Ionicons name="home" size={20} />),headerShown:null}}/>``
 7. Tilføj nu også et ikon til "Add" Screenen, hvor ikon navnet er ``add`` istedet for home
-8. Nu burde du kunne trykke imellem add og stacknavigatoren "Carlist"
+8. Tilføj nu din `BottomNavigation` i en endelig `return` function. 
+9. Nu burde du kunne trykke imellem add og stacknavigatoren "Carlist"
 
 Hint:
 ```javascript
 export default function App() {
 
  const Stack = createStackNavigator();
-  const Tab = createBottomTabNavigator();
-  const StackNavigation = () => {
+ const Tab = createBottomTabNavigator();
+ const StackNavigation = () => {
     return(
         <Stack.Navigator>
           <Stack.Screen "din kode her" />
@@ -98,6 +99,12 @@ export default function App() {
       </NavigationContainer>
     )
   }
+
+ return (
+   <BottomNavigation/>
+  );
+}
+
 }
 ```
 
